@@ -8,7 +8,7 @@ package org.dimigo.basic;
  * org.dimigo.basic
  *  |_ Operator
  *
- * 1. 개요 : 실습과제2 - 디미베네 연간 인건비 구하기
+ * 1. 개요 : 실습과제2 - 디미베네
  * 2. 작성일 : 2017. 3. 13.
  * </pre>
  *
