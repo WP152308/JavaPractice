@@ -50,7 +50,7 @@ public class Loop {
 				System.out.println("공격력이 감소되었습니다. 현재 공격력 : "+att);
 				break;
 			case 3:
-				int ran = new Random().nextInt(4) + 1;
+				int ran = new Random().nextInt(4);
 				System.out.println(ch[ran]+"(으)로 설정되었습니다.");
 				break;
 			case 9:
