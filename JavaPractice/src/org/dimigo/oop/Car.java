@@ -8,7 +8,7 @@ package org.dimigo.oop;
  * org.dimigo.oop
  *  |_ Car
  *
- * 1. 개요 :
+ * 1. 개요 : 실습 4-1 자동차 출력
  * 2. 작성일 : 2017. 3. 23.
  * </pre>
  *
