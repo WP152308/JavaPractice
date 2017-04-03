@@ -38,7 +38,7 @@ public class Question {
 				System.out.println("틀렸습니다!");
 			}
 		}
-
+		
 		System.out.println("<< 결과 출력 >>");
 		for (int i = 0; i < 3; i++){
 			StringBuilder sb = new StringBuilder(question[i]+" ");
