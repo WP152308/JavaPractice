@@ -29,28 +29,14 @@ public class Question {
 
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("1."+question[0]);
-		String answer = scanner.nextLine();
-		if (answer.equals(answers[0])) {
-			System.out.println("정답입니다!");
-		} else {
-			System.out.println("틀렸습니다!");
-		}
-
-		String answer2 = scanner.nextLine();
-		System.out.println("2."+question[1]);
-		if (answer2.equals(answers[1])) {
-			System.out.println("정답입니다!");
-		} else {
-			System.out.println("틀렸습니다!");
-		}
-
-		String answer3 = scanner.nextLine();
-		System.out.println("3."+question[2]);
-		if (answer3.equals(answers[2])) {
-			System.out.println("정답입니다!");
-		} else {
-			System.out.println("틀렸습니다!");
+		for (int i = 0; i < 3; i++){
+			System.out.println((i+1)+". "+question[0]);
+			String answer = scanner.nextLine();
+			if (answer.equals(answers[i])) {
+				System.out.println("정답입니다!");
+			} else {
+				System.out.println("틀렸습니다!");
+			}
 		}
 
 		System.out.println("<< 결과 출력 >>");
