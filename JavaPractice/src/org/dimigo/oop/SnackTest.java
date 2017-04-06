@@ -36,7 +36,7 @@ public class SnackTest {
 			System.out.println(snack[i].toString());
 		}
 		
-		System.out.println("총 구매 금액 : "+String.format("%,d", sum));
+		System.out.println("총 구매 금액 : "+String.format("%,d", sum)+"원");
 		
 		
 		
