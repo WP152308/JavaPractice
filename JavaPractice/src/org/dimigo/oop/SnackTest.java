@@ -30,7 +30,7 @@ public class SnackTest {
 				new Snack("콘칲", "크라운", 1200, 1),
 				new Snack("허니버터칩", "해태", 1500, 4),
 		};
-
+		
 		for (int i = 0; i < snack.length; i++) {
 			sum += snack[i].calcPrice();
 			System.out.println(snack[i].toString());
