@@ -6,7 +6,7 @@ package org.dimigo.oop;
 /**
  * <pre>
  * org.dimigo.oop
- *  |_ ldolGroup
+ *  |_ IdolGroup
  *
  * 1. 개요 : 실습7 - 아이돌 그룹 배열	
  * 2. 작성일 : 2017. 4. 7.
@@ -16,7 +16,7 @@ package org.dimigo.oop;
  * @version : 1.0
  *
  */
-public class ldolGroup {
+public class IdolGroup {
 
 	/**
 	 * @param args
