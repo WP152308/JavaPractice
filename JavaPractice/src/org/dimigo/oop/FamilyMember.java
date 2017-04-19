@@ -20,9 +20,6 @@ public class FamilyMember {
 	private static int memberCnt;
 	private String memberName;
 	
-	public FamilyMember(){
-		
-	}
 	public FamilyMember(String memberName){
 		this.memberName = memberName;
 		memberCnt++;
