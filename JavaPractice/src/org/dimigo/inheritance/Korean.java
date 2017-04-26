@@ -30,7 +30,7 @@ public class Korean extends Person{
 	}
 	
 	public String toString(){
-		return "저는" + super.getName() + "입니다.";
+		return "저는 한국사람" + super.getName() + "입니다.";
 	}
 	
 	
