@@ -58,5 +58,4 @@ public class SmartPhone {
 		return "모델명 : " + model + ", 제조사 :  "+company+" , 가격 :  "+String.format("%, d", price)+"원";
 	}
 	
-	
 }
