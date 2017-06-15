@@ -34,10 +34,6 @@ public class ArakoMenu {
 				writer.write(data+"\n");
 			}
 			int result;
-			char[] buf = new char[1024];
-			while((result = reader.read(buf)) != -1){
-				writer.write(buf, 0, result);
-			}
 			writer.flush();
 			System.out.println("<< 메뉴 출력 >>");
 			String str;
